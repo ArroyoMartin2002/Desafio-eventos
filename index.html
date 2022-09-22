@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <label for="monto">Monto</label>
+        <input type="number" id="monto">
+        <label for="cuotas">Cuotas</label>
+        <select name="cuotas" id="cuotas">
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="12">12</option>
+        </select>
+        <button type="submit">Aceptar</button>
+    </form>
+
+    <div>
+        <p>Valor de cuota individual = <span id="valorIndividual">0</span></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
